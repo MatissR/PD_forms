@@ -1,0 +1,104 @@
+
+header{
+padding-top: 1%;
+width:85%;
+margin: 10px auto;
+font-family: sans-serif;
+}
+
+body{
+width:80%;
+margin: 10px auto;
+font-family: sans-serif;
+position:center;
+}
+
+input{
+border-radius:20px;
+padding:5px 10px 5px 10px;
+border-color:#E8E8E8;
+}
+
+button[type="submit"] {
+  text-indent:99px;
+  overflow: 5px;
+  width: 30px;
+  padding: 0;
+  margin: 0;
+  border: 1px transparent;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+  cursor: pointer;
+}
+
+.fbutton button{
+font-family: sans-serif;
+background-color:#ff6666;
+height:30px;
+width: 120px;
+text-align:table;
+border:none;
+color:white;
+}
+
+h4{
+font-family: arial, sans-serif;
+text-decoration: underline;
+text-decoration-color: #3399ff;
+font-weight: normal;
+ color:grey;
+}
+
+h1{
+color:#3399ff;
+}
+
+/* sākas tabulas css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.table-box{
+    margin: 30px auto;
+}
+.table-row{
+    display: table;
+    width: 85%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background:#000033;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 10%;
+    text-align: left;
+    padding: 4px 4px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+    font-weight: normal;
+}
+.last-cell{
+    border-right: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
